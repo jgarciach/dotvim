@@ -6,18 +6,24 @@
 
 1. Clone repository to home:
 
-      git clone git://github.com/nelstrom/dotvim.git ~/.vim
+`
+    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+`
 
 2. Create symlinks:
 
-      ln -s ~/.vim/vimrc ~/.vimrc
-      ln -s ~/.vim/gvimrc ~/.gvimrc
+`
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+`
 
 3. Switch to the `~/.vim` directory, and fetch submodules:
 
-      cd ~/.vim
-      git submodule init
-      git submodule update
+`
+    cd ~/.vim
+    git submodule init
+    git submodule update
+`
 
 ###Install plugins as submodules
 
