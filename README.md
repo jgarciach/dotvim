@@ -1,29 +1,38 @@
-##jgarciach's dotvim
+#jgarciach's dotvim
 
-###Installation
+##Installation
 
-Clone repository to home:
+###Install Vim environment on a machine
+
+1. Clone repository to home:
 
     git clone git://github.com/nelstrom/dotvim.git ~/.vim
 
-Create symlinks:
+2. Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
-Switch to the `~/.vim` directory, and fetch submodules:
+3. Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
     git submodule init
     git submodule update
 
-###Upgrade
+###Install plugins as submodules
 
-Upgrade a plugin bundle:
+    cd ~/.vim
+    git submodule add http://github.com/author/vim-plugin.git bundle/plugin
+    git add .
+    git commit -m "Install Plugin.vim bundle as a submodule."
+
+###Upgrade plugins
+
+####Upgrade a plugin bundle
 
     cd ~/proto/.vim/bundle/aplugin
     git pull origin master
 
-Upgrade all bundled plugins:
+####Upgrade all bundled plugins
 
     git submodule foreach git pull origin master
