@@ -1,4 +1,8 @@
-Installation:
+##jgarciach's dotvim
+
+###Installation
+
+Clone repository to home:
 
     git clone git://github.com/nelstrom/dotvim.git ~/.vim
 
@@ -12,6 +16,13 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+
+###Upgrade
+
+Upgrade a plugin bundle:
+
+    cd ~/proto/.vim/bundle/aplugin
+    git pull origin master
 
 Upgrade all bundled plugins:
 
