@@ -4,26 +4,20 @@
 
 ###Install Vim environment on a machine
 
-1. Clone repository to home:
+Clone repository to home:
 
-`
     git clone git://github.com/nelstrom/dotvim.git ~/.vim
-`
 
-2. Create symlinks:
+Create symlinks:
 
-`
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
-`
 
-3. Switch to the `~/.vim` directory, and fetch submodules:
+Switch to the `~/.vim` directory, and fetch submodules:
 
-`
     cd ~/.vim
     git submodule init
     git submodule update
-`
 
 ###Install plugins as submodules
 
