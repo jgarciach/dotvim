@@ -7,3 +7,4 @@ set shiftwidth=2
 set expandtab
 
 syntax on
+au BufRead,BufNewFile *.hamlc set ft=haml
