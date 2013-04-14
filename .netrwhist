@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/chocheman/proto/app/assets/templates/products'
 let g:netrw_dirhist_2='/home/chocheman/proto/app/views'
 let g:netrw_dirhist_3='/home/chocheman/ubiqua/hogar/app/views/lead_mailer'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/home/chocheman/taskboard'
 let g:netrw_dirhist_5='/home/chocheman/taskboard/app'
 let g:netrw_dirhist_6='/home/chocheman/taskboard/app/controllers'
 let g:netrw_dirhist_7='/home/chocheman/ubiqua/hogar/app/views/lead_mailer'
+let g:netrw_dirhist_8='/home/chocheman/proto/app/views/order_mailer'
+let g:netrw_dirhist_9='/home/chocheman/proto/app/views/quote_mailer'
