@@ -30,9 +30,10 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
 ###Upgrade a plugin bundle
 
-    cd ~/proto/.vim/bundle/aplugin
+    cd ~/.vim/bundle/aplugin
     git pull origin master
 
 ###Upgrade all bundled plugins
 
+    cd ~/.vim
     git submodule foreach git pull origin master
