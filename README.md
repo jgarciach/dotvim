@@ -6,7 +6,7 @@
 
 Clone repository to home:
 
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+    git clone git://github.com/jgarciach/dotvim.git ~/.vim
 
 Create symlinks:
 
