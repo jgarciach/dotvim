@@ -10,3 +10,7 @@ set expandtab
 syntax on
 filetype plugin indent on
 au BufRead,BufNewFile *.hamlc set ft=haml
+
+syntax enable
+set background=light
+colorscheme solarized
