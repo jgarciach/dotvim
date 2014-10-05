@@ -23,3 +23,14 @@ noremap <leader>yy "*Y
 
 "Preserve indentation while pasting text from the OS X clipboard"
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
+
+"Airline"
+let g:airline_powerline_fonts = 1
+set laststatus=2
+set guifont=Inconsolata\ for\ Powerline:h15
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
