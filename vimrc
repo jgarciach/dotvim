@@ -13,6 +13,7 @@ au BufRead,BufNewFile *.hamlc set ft=haml
 
 "Set Solarized light as colorscheme"
 syntax enable
+let g:solarized_termtrans = 1
 set background=light
 colorscheme solarized
 
