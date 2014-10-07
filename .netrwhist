@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/chocheman/proto/app/assets/javascripts/routers'
 let g:netrw_dirhist_2='/home/chocheman/proto/app/assets/javascripts/views/products'
 let g:netrw_dirhist_3='/home/chocheman/proto/app/assets/templates/admin'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/chocheman/proto/app/assets/javascripts/views/salesm
 let g:netrw_dirhist_6='/home/chocheman/proto/app/assets/stylesheets'
 let g:netrw_dirhist_7='/home/chocheman/Documents/brainfarts'
 let g:netrw_dirhist_8='/Users/jgarciach/.vim'
+let g:netrw_dirhist_9='/Users/jgarciach/Downloads'
