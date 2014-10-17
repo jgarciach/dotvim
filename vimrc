@@ -11,6 +11,9 @@ syntax on
 filetype plugin indent on
 au BufRead,BufNewFile *.hamlc set ft=haml
 
+"Syntastic"
+let g:syntastic_python_checkers = ['pylint']
+
 "Highlight Trailing Whitespace"
 match ErrorMsg '\s\+$'
 
@@ -34,11 +37,11 @@ set background=light
 colorscheme solarized
 
 "Yank text to the OS X clipboard"
-noremap <leader>y "*y
-noremap <leader>yy "*Y
+noremap <Leader>y "*y
+noremap <Leader>yy "*Y
 
 "Preserve indentation while pasting text from the OS X clipboard"
-noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
+noremap <Leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
 
 "Airline"
 let g:airline_powerline_fonts = 1
