@@ -13,6 +13,8 @@ au BufRead,BufNewFile *.hamlc set ft=haml
 
 "Syntastic"
 let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_ruby_checkers = ['rubylint', 'rubocop']
+let g:syntastic_aggregate_errors = 1
 
 "Highlight Trailing Whitespace"
 match ErrorMsg '\s\+$'
